@@ -19,15 +19,12 @@ function Register() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    setIsLoading(true);
     addDocument(form)
       .then((res) => {
-        setIsLoading(false);
         console.log(res);
         router.push("/dashboard");
       })
       .catch((err) => {
-        setIsLoading(false);
         console.log(err);
       });
   };
@@ -55,7 +52,7 @@ function Register() {
           onChange={handleChange}
           name="comment"
         />
-        <Button text={isLoading ? "Submiting..." : "Submit "} />
+        <Button text={"Submit"} />
       </form>
     </div>
   );

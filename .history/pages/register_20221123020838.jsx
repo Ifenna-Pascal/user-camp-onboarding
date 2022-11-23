@@ -1,11 +1,9 @@
-import { useRouter } from "next/router";
 import React, { useState } from "react";
 import Button from "../components/general/Button";
 import Input, { SelectField } from "../components/general/Input";
 import { addDocument } from "../db/method";
 
 function Register() {
-  const router = useRouter();
   const [form, setForm] = useState({
     firstName: "",
     lastName: "",
@@ -14,20 +12,13 @@ function Register() {
     branch: "",
     comment: "",
   });
-
-  const [isLoading, setIsLoading] = useState(false);
-
   const handleSubmit = (e) => {
     e.preventDefault();
-    setIsLoading(true);
     addDocument(form)
       .then((res) => {
-        setIsLoading(false);
         console.log(res);
-        router.push("/dashboard");
       })
       .catch((err) => {
-        setIsLoading(false);
         console.log(err);
       });
   };
@@ -55,7 +46,7 @@ function Register() {
           onChange={handleChange}
           name="comment"
         />
-        <Button text={isLoading ? "Submiting..." : "Submit "} />
+        <Button text={"Submit"} />
       </form>
     </div>
   );

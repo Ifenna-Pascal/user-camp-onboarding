@@ -27,7 +27,6 @@ function Register() {
         router.push("/dashboard");
       })
       .catch((err) => {
-        setIsLoading(false);
         console.log(err);
       });
   };
@@ -55,7 +54,7 @@ function Register() {
           onChange={handleChange}
           name="comment"
         />
-        <Button text={isLoading ? "Submiting..." : "Submit "} />
+        <Button text={"Submit"} />
       </form>
     </div>
   );
