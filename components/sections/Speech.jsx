@@ -30,7 +30,12 @@ function Speech() {
         />
       </div>
       <div>
-        <p className="text-left block text-lg  font-poppins  leading-[32px] text-gray-500 py-4 px-2">
+        <h1 className="p-2 text-lg font-sono font-semibold">
+          {" "}
+          Queen Anyaogu Chidera Ruth. <br />
+          Miss YEMS 2022/2023,
+        </h1>
+        <p className="text-left block text-lg  font-poppins  leading-[32px] text-gray-500  px-2">
           {p.substring(0, distance)}
           <span
             className="font-semibold italic duration-300 px-2 cursor-pointer font-sono text-gray-600"

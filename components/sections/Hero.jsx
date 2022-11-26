@@ -13,7 +13,6 @@ function Hero() {
         <h1 className="text-3xl lg:text-6xl text-gray-800 text-center lg:text-left leading-[50px] lg:leading-[75px] font-semibold font-sono">
           Raising Agents Of Transformation
         </h1>
-
         <p className="text-lg lg:max-w-[600px] text-gray-700 py-2 text-center lg:text-left leading-[35px] lg:leading-[30px] font-poppins px-4 lg:px-0 lg:pr-[50px]">
           In the last days, says the Lord, I will pour out my spirit upon all
           flesh, and your <b>sons and daughters</b> shall prophesy, your old men
