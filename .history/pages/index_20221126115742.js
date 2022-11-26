@@ -7,7 +7,6 @@ import Speech from "../components/sections/Speech";
 import Steps from "../components/sections/Steps";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { useEffect } from "react";
 
 export default function Home() {
   useEffect(() => {

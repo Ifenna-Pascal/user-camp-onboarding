@@ -26,7 +26,7 @@ function Nav() {
           </Link>
         </ul>
         <button
-          className='block md:hidden className="w-full px-2 py-1 rounded-lg text-AP-grey-200 hover:text-AP-blue-200 border-AP-grey-200 hover:border-AP-blue-400'
+          className='block hidden className="w-full px-2 py-1 rounded-lg text-AP-grey-200 hover:text-AP-blue-200 border-AP-grey-200 hover:border-AP-blue-400'
           onClick={toggle}
         >
           <i
@@ -46,11 +46,11 @@ function Nav() {
         <NavLink href="/#home" name="About Us" />
         <NavLink href="/#process" name="Process" />
         <NavLink href="/#reviews" name="Reviews" />
-        {/* {router.pathname !== "/register" && (
+        {router.pathname !== "/register" && (
           <Link href="/register">
             <Button text="Register" onClick={() => setShow(false)} />
           </Link>
-        )} */}
+        )}
       </div>
     </div>
   );

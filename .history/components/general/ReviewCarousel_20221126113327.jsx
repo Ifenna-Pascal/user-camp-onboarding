@@ -64,26 +64,23 @@ const ReviewCarousel = () => {
     <div className="max-w-[1100px] mx-auto">
       <Slider {...settings}>
         <ReviewCard
-          name="Ben Victorious"
+          name="PSt Godswill"
           role="Enugu Branch"
           review="From meeting old friends and brethren and working together, to spending quality time together in worship, the experience- pure bliss. My story won't be complete without mentioning the Prophecies and Words of our Apostle and Ministers that came through, within the year 2022. I genuinely anticipate the new move of the Holy Spirit in this upcoming annual event: the Young People Love Jesus camp meeting 2022! Be there!"
           src={"/assets/ben.jpg"}
         />
         <ReviewCard
           name={"Chidera Ede"}
-          review="From meeting old friends and brethren and working together, to spending quality time together in worship, the experience- pure bliss. My story won't be complete without mentioning the Prophecies and Words of our Apostle and Ministers that came through, within the year 2022. I genuinely anticipate the new move of the Holy Spirit in this upcoming annual event: the Young People Love Jesus camp meeting 2022! Be there!"
           role="Lagos Branch"
           src="https://images.unsplash.com/photo-1595152452543-e5fc28ebc2b8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWVuJTIwcG9ydHJhaXR8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60"
         />
         <ReviewCard
           name="PSt Godswill"
-          review="From meeting old friends and brethren and working together, to spending quality time together in worship, the experience- pure bliss. My story won't be complete without mentioning the Prophecies and Words of our Apostle and Ministers that came through, within the year 2022. I genuinely anticipate the new move of the Holy Spirit in this upcoming annual event: the Young People Love Jesus camp meeting 2022! Be there!"
           role="Enugu Branch"
           src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
         />
         <ReviewCard
           name={"Chidera Ede"}
-          review="From meeting old friends and brethren and working together, to spending quality time together in worship, the experience- pure bliss. My story won't be complete without mentioning the Prophecies and Words of our Apostle and Ministers that came through, within the year 2022. I genuinely anticipate the new move of the Holy Spirit in this upcoming annual event: the Young People Love Jesus camp meeting 2022! Be there!"
           role="Lagos Branch"
           src={
             "https://images.unsplash.com/photo-1624395213043-fa2e123b2656?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8bWVuJTIwcG9ydHJhaXR8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60"

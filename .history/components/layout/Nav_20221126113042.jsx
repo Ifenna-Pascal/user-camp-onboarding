@@ -46,11 +46,11 @@ function Nav() {
         <NavLink href="/#home" name="About Us" />
         <NavLink href="/#process" name="Process" />
         <NavLink href="/#reviews" name="Reviews" />
-        {/* {router.pathname !== "/register" && (
+        {router.pathname !== "/register" && (
           <Link href="/register">
             <Button text="Register" onClick={() => setShow(false)} />
           </Link>
-        )} */}
+        )}
       </div>
     </div>
   );

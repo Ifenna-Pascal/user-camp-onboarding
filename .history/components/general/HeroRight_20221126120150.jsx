@@ -4,13 +4,7 @@ import React from "react";
 function HeroRight() {
   return (
     <div className="grid grid-cols-3 lg:px-8   mt-8 lg:my-0 pr-0  max-h-[700px] w-full gap-2 grid-rows-6">
-      <div
-        data-aos="zoom-in-down"
-        data-aos-offset="500"
-        data-aos-easing="ease-in-cubic"
-        data-aos-duration="1000"
-        class="w-full row-start-1 row-span-3"
-      >
+      <div class="w-full row-start-1 row-span-3">
         <img
           src="/assets/camping20.jpg"
           alt="Photo by Claudio Schwarz on Unsplash"
@@ -66,13 +60,7 @@ function HeroRight() {
           class="inset-0 h-full w-full object-cover object-center bg-center  rounded-lg  "
         />
       </div>
-      <div
-        data-aos="fade-up"
-        data-aos-offset="500"
-        data-aos-easing="ease-in-cubic"
-        data-aos-duration="1000"
-        className="col-start-3  row-start-3 row-span-3"
-      >
+      <div className="col-start-3  row-start-3 row-span-3">
         <img
           src={"/assets/camp10.jpg"}
           alt="Photo by Claudio Schwarz on Unsplash"
