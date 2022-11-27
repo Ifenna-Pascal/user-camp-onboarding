@@ -27,10 +27,9 @@ function Dashboard() {
           whatsApp line{" "}
           <strong className="text-green-600">
             <a
-              target={"_blank"}
-              without
+              target="_blank"
               rel="noreferrer"
-              href="https://web.whatsapp.com/send?phone= [09036909104]"
+              href="https://api.whatsapp.com/send?phone=09036909104"
             >
               09036909104
             </a>

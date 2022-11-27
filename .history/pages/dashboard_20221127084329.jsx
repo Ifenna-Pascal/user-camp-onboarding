@@ -26,12 +26,7 @@ function Dashboard() {
           2. Send a screen shot of payment proof along side name to this
           whatsApp line{" "}
           <strong className="text-green-600">
-            <a
-              target={"_blank"}
-              without
-              rel="noreferrer"
-              href="https://web.whatsapp.com/send?phone= [09036909104]"
-            >
+            <a target={"_blank"} href="https://wa.me/09036909104">
               09036909104
             </a>
           </strong>

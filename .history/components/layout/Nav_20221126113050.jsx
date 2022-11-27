@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
 import { useRouter } from "next/router";
 import React, { useState } from "react";
@@ -16,16 +15,7 @@ function Nav() {
       <nav className="w-full lg:py-6 py-5 flex items-center  lg:max-w-[1450px] lg:mx-auto justify-between">
         <Link href="/">
           {" "}
-          <div className="flex items-center">
-            <img
-              src="/assets/LOGO.png"
-              alt="logo"
-              className="w-[40px] mr-2 h-[40px]"
-            />
-            <h1 className="font-sono text-2xl font-semibold lg:text-4xl ">
-              YEMs
-            </h1>
-          </div>
+          <h1 className="font-sono text-2xl lg:text-4xl ">YEMs</h1>
         </Link>
         <ul className="lg:flex items-center hidden justify-between">
           <NavLink href="/#home" name="About Us" />

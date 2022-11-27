@@ -22,9 +22,7 @@ function Nav() {
               alt="logo"
               className="w-[40px] mr-2 h-[40px]"
             />
-            <h1 className="font-sono text-2xl font-semibold lg:text-4xl ">
-              YEMs
-            </h1>
+            <h1 className="font-sono text-2xl lg:text-4xl ">YEMs</h1>
           </div>
         </Link>
         <ul className="lg:flex items-center hidden justify-between">

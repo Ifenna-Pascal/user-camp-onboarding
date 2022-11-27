@@ -25,15 +25,8 @@ function Dashboard() {
         <p className="block text-base  lg:text-lg text-left px-4 font-poppins text-gray-800 leading-[30px] py-2 lg:py-4">
           2. Send a screen shot of payment proof along side name to this
           whatsApp line{" "}
-          <strong className="text-green-600">
-            <a
-              target={"_blank"}
-              without
-              rel="noreferrer"
-              href="https://web.whatsapp.com/send?phone= [09036909104]"
-            >
-              09036909104
-            </a>
+          <strong>
+            <a href="https://wa.me/09036909104">09036909104</a>
           </strong>
         </p>
       </div>

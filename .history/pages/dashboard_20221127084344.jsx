@@ -30,7 +30,7 @@ function Dashboard() {
               target={"_blank"}
               without
               rel="noreferrer"
-              href="https://web.whatsapp.com/send?phone= [09036909104]"
+              href="https://wa.me/09036909104"
             >
               09036909104
             </a>
