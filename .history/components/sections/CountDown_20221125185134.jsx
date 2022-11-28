@@ -52,7 +52,7 @@ function CountDown() {
         <img
           src="/assets/flyer.jpg"
           alt="campFlyer"
-          className="w-full h-full lg:rounded-lg object-center object-cover"
+          className="w-full h-full object-center object-cover"
         />
       </div>
       {display && (

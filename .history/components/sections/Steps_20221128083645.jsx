@@ -19,7 +19,7 @@ function Steps() {
       <StepProcess header="2.Pay registration levy" content=<Payment /> />
       <StepProcess
         header="3.Send out proof of payment"
-        content={`Send proof of payment to the specified whatsApp contact seen after fiiling the registration form. `}
+        content={`Send proof of payment to the specified whatsApp contact seen after fiiling the registration form `}
       />{" "}
     </div>
   );

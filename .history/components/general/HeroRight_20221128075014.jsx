@@ -47,7 +47,7 @@ function HeroRight() {
         className="row-start-2 row-span-3  w-full col-start-2 col-span-1"
       >
         <img
-          src="/assets/preacher.jpg"
+          src="/assets/preacher2.jpg"
           alt="Photo by Claudio Schwarz on Unsplash"
           class="inset-0 h-full w-full object-cover object-center  rounded-lg  "
         />

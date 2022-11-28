@@ -7,12 +7,7 @@ import useSetting from "../hooks/useSetting";
 
 const Carousel = ({ setCurrent, current }) => {
   const { settings } = useSetting(current, setCurrent);
-
-  const images = [
-    "/assets/camp7.jpg",
-    "/assets/preacher.jpg",
-    "/assets/camp.jpg",
-  ];
+  const images = ["/assets/camp7.jpg", "/assets/camp4.jpg", "/assets/camp.jpg"];
   return (
     <div>
       <Slider {...settings}>

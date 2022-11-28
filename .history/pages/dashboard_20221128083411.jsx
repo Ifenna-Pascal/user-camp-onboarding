@@ -8,7 +8,7 @@ function Dashboard() {
           Next Steps{" "}
         </h1>
         <p className="block text-base  lg:text-lg text-left px-4 font-poppins text-gray-800 leading-[30px] py-2 lg:py-4">
-          1. Send Registration Fee of <strong>#1500</strong> to the account
+          1. Send Registration Fee of <strong>1000</strong> to the account
           details
         </p>
         <div className="px-4">

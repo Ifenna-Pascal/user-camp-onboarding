@@ -31,7 +31,7 @@ function HowItWorks() {
             content={`Games and fun events is never left out, games ranging from in-door to out-door games is established `}
           />
         </div>
-        {/* <ConditionalDisplay current={current} /> */}
+        <ConditionalDisplay current={current} />
         <div className="w-full px-2 lg:px-4 h-full">
           <Carousel current={current} setCurrent={setCurrent} />
         </div>

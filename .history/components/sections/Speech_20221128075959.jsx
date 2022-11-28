@@ -26,7 +26,7 @@ function Speech() {
         <img
           src="/assets/miss.jpg"
           alt="campFlyer"
-          className="w-full h-full lg:rounded-lg object-center object-cover"
+          className="w-full h-full object-center object-cover"
         />
       </div>
       <div className="lg:p-6">

@@ -11,7 +11,7 @@ function HowItWorks() {
         content="At the camp no moment is left out, every moment an encounter, every timing an experience "
       />
       <div className="grid p-6 grid-cols-1 lg:grid-cols-2">
-        <div className="flex  items-center  justify-center flex-col">
+        <div className="lg:flex hidden items-center  justify-center flex-col">
           <StepProcess
             current={current}
             active={0}
@@ -31,7 +31,7 @@ function HowItWorks() {
             content={`Games and fun events is never left out, games ranging from in-door to out-door games is established `}
           />
         </div>
-        {/* <ConditionalDisplay current={current} /> */}
+        <ConditionalDisplay current={current} />
         <div className="w-full px-2 lg:px-4 h-full">
           <Carousel current={current} setCurrent={setCurrent} />
         </div>

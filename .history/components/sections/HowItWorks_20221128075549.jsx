@@ -11,7 +11,7 @@ function HowItWorks() {
         content="At the camp no moment is left out, every moment an encounter, every timing an experience "
       />
       <div className="grid p-6 grid-cols-1 lg:grid-cols-2">
-        <div className="flex  items-center  justify-center flex-col">
+        {/* <div className="lg:flex hidden items-center  justify-center flex-col">
           <StepProcess
             current={current}
             active={0}
@@ -30,8 +30,8 @@ function HowItWorks() {
             header="Games & Fun"
             content={`Games and fun events is never left out, games ranging from in-door to out-door games is established `}
           />
-        </div>
-        {/* <ConditionalDisplay current={current} /> */}
+        </div> */}
+        <ConditionalDisplay current={current} />
         <div className="w-full px-2 lg:px-4 h-full">
           <Carousel current={current} setCurrent={setCurrent} />
         </div>
@@ -86,14 +86,14 @@ const ConditionalDisplay = ({ current }) => {
           <StepProcess
             current={current}
             active={0}
-            header="Morning Worship"
-            content={`Every morning 6am - 7am, a sound of worship is raised unto God, an atmosphere where our God is lifted high and His glory fills the our midst `}
-          />{" "}
+            header="Seminars & Confrences"
+            content={`A variety of seminars centered at improving our relationship with God, down to career exploits, academic excellence and lot's more exists at every section. Every timing has it's special offers  `}
+          />
           <StepProcess
             current={current}
             active={1}
-            header="Seminars & Confrences"
-            content={`A variety of seminars centered at improving our relationship with God, down to career exploits, academic excellence and lot's more exists at every section. Every timing has it's special offers  `}
+            header="Content Word"
+            content={` Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi quidem veritatis quia. Qui iure dolore vitae maiores nulla?`}
           />
         </div>
       ) : (

@@ -3,8 +3,8 @@ import Header from "../general/Header";
 
 const Payment = () => (
   <p>
-    Everyone is expected to pay a registration fee of <strong>#1,500</strong> to
-    the account details seen after filling out the registration form.
+    Everyone is expected to pay a registration fee of <strong>1,000</strong> to
+    the an account number <strong>098....998</strong>
   </p>
 );
 
@@ -19,7 +19,7 @@ function Steps() {
       <StepProcess header="2.Pay registration levy" content=<Payment /> />
       <StepProcess
         header="3.Send out proof of payment"
-        content={`Send proof of payment to the specified whatsApp contact seen after fiiling the registration form. `}
+        content={`Send proof of payment to the specified whatsApp contact seen after fiiling the registration form `}
       />{" "}
     </div>
   );
