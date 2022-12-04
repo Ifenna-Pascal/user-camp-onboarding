@@ -25,17 +25,21 @@ function Dashboard() {
         <p className="block text-base  lg:text-lg text-left px-4 font-poppins text-gray-800 leading-[30px] py-2 lg:py-4">
           2. Send a screen shot of payment proof along side name to this
           whatsApp line{" "}
-          <strong className="text-green-600">
-            <a
+          {/* <strong className="text-green-600"> */}
+            {/* <a
               target={"_blank"}
               without
               rel="noreferrer"
               href="https://wa.me/09067869544"
             >
               09067869544
-            </a>
-          </strong>
+            </a> */}
+            <a aria-label="Chat on WhatsApp" href="https://wa.me/1XXXXXXXXXX"> <img alt="Chat on WhatsApp" src="WhatsAppButtonGreenLarge.svg"> </a>
+to embed PNG image
+<a aria-label="Chat on WhatsApp" href="https://wa.me/1XXXXXXXXXX"> <img alt="Chat on WhatsApp" src="WhatsAppButtonGreenLarge.png" /> </a>
+          {/* </strong> */}
         </p>
+      
       </div>
       <h1 className="text-gray-800 pt-4 text-center lg:text-left text-2xl lg:text-5xl font-semibold font-sono block ">
         Congratulations🎉

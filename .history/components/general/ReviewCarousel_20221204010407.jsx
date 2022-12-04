@@ -76,7 +76,7 @@ const ReviewCarousel = () => {
           src={"/assets/nonso.jpg"}
         />
         <ReviewCard
-          name="Ebube (Miss Yems 2019)"
+          name="Ebube (Miss Yems 2020)"
           review="Camp Meeting, Wow!! Such a wonderful time in God's presence, it's really an unforgettable experience. Hearing God speak to us through our Spiritual Father and the Ministers and also listening to The Artists and their Team do Morning Devotional Songs Blessed me in no small way. Every Word Of Prophecy said by Our Spiritual Father Concerning Nsukka Church for this Year 2022 have been fulfilled and more are still happening. Waiting Patiently for This Year's Camp, trust me you don't wonna miss this for anything. See You Soon."
           role="Nsukka Branch"
           src={"/assets/ebube.jpg"}

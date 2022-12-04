@@ -6,8 +6,6 @@ import {
   addDoc,
   where,
   query,
-  getDocs,
-  getDoc,
 } from "firebase/firestore";
 
 // initilaize app
@@ -28,14 +26,10 @@ const addDocument = async (arg) => {
   return result;
 };
 
-// const findMember = async (email) => {
-//   const q = query(colRef, where("email", "==", email));
-//   const querySnapshot = await getDocs(q);
-//   if (querySnapshot[0].exists()) {
-//     return true;
-//   } else {
-//     return false;
-//   }
-// };
+const findMember = async (email) => {
+  const q = query(colRef, where("email", "==", email));
+  const querySnapshot = await getDocs(q);
+  return querySnapshot;
+};
 
-export { addDocument };
+export { addDocument, findMember };

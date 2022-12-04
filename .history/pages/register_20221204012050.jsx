@@ -18,26 +18,26 @@ function Register() {
 
   const [isLoading, setIsLoading] = useState(false);
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
     setIsLoading(true);
-    // const member = await findMember(form?.email);
-    // console.log(member);
-    // if (member) {
-    //   setIsLoading(false);
-    //   toast.error("user already registered!!");
-    // } else {
-    addDocument(form)
-      .then((res) => {
-        setIsLoading(false);
-        console.log(res);
-        router.push("/dashboard");
-      })
-      .catch((err) => {
-        setIsLoading(false);
-        console.log(err);
-      });
-    // }
+    const member = await findMember(form?.email);
+    console.log(member);
+    if (member) {
+      setIsLoading(false);
+      toast.error("user already registered!!");
+    } else {
+      addDocument(form)
+        .then((res) => {
+          setIsLoading(false);
+          console.log(res);
+          router.push("/dashboard");
+        })
+        .catch((err) => {
+          setIsLoading(false);
+          console.log(err);
+        });
+    }
   };
   const handleChange = (e) => {
     setForm({ ...form, [e.target.name]: e.target.value });
@@ -52,30 +52,10 @@ function Register() {
         className="min-h-[400px] px-4  w-full lg:max-w-[700px] mx-auto"
         onSubmit={handleSubmit}
       >
-        <Input
-          label="First Name"
-          onChange={handleChange}
-          name="firstName"
-          required={true}
-        />
-        <Input
-          label="Last Name"
-          onChange={handleChange}
-          name="lastName"
-          required={true}
-        />
-        <Input
-          label="Email"
-          onChange={handleChange}
-          name="email"
-          required={true}
-        />
-        <Input
-          label="Location"
-          onChange={handleChange}
-          name="location"
-          required={false}
-        />
+        <Input label="First Name" onChange={handleChange} name="firstName" />
+        <Input label="Last Name" onChange={handleChange} name="lastName" />
+        <Input label="Email" onChange={handleChange} name="email" />
+        <Input label="Location" onChange={handleChange} name="location" />
         <SelectField onChange={handleChange} name="branch" />
         <Input
           label="Add Comment"

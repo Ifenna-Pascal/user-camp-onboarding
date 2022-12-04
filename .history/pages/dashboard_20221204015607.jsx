@@ -26,14 +26,9 @@ function Dashboard() {
           2. Send a screen shot of payment proof along side name to this
           whatsApp line{" "}
           <strong className="text-green-600">
-            <a
-              target={"_blank"}
-              without
-              rel="noreferrer"
-              href="https://wa.me/09067869544"
-            >
-              09067869544
-            </a>
+          <a aria-label="Chat on WhatsApp" href="https://wa.me/1XXXXXXXXXX"> <img alt="Chat on WhatsApp" src="WhatsAppButtonGreenLarge.svg" />
+to embed PNG image
+<a aria-label="Chat on WhatsApp" href="https://wa.me/1XXXXXXXXXX"> <img alt="Chat on WhatsApp" src="WhatsAppButtonGreenLarge.png" />
           </strong>
         </p>
       </div>

@@ -21,8 +21,8 @@ function Register() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setIsLoading(true);
-    // const member = await findMember(form?.email);
-    // console.log(member);
+    const member = await findMember(form?.email);
+    console.log(member);
     // if (member) {
     //   setIsLoading(false);
     //   toast.error("user already registered!!");

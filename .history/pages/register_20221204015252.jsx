@@ -22,7 +22,7 @@ function Register() {
     e.preventDefault();
     setIsLoading(true);
     // const member = await findMember(form?.email);
-    // console.log(member);
+    console.log(member);
     // if (member) {
     //   setIsLoading(false);
     //   toast.error("user already registered!!");

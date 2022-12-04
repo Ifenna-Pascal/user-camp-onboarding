@@ -38,4 +38,4 @@ const addDocument = async (arg) => {
 //   }
 // };
 
-export { addDocument };
+export { addDocument, findMember };

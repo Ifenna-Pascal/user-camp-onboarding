@@ -21,8 +21,8 @@ function Register() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setIsLoading(true);
-    // const member = await findMember(form?.email);
-    // console.log(member);
+    const member = await findMember(form?.email);
+    console.log(member);
     // if (member) {
     //   setIsLoading(false);
     //   toast.error("user already registered!!");
@@ -58,24 +58,9 @@ function Register() {
           name="firstName"
           required={true}
         />
-        <Input
-          label="Last Name"
-          onChange={handleChange}
-          name="lastName"
-          required={true}
-        />
-        <Input
-          label="Email"
-          onChange={handleChange}
-          name="email"
-          required={true}
-        />
-        <Input
-          label="Location"
-          onChange={handleChange}
-          name="location"
-          required={false}
-        />
+        <Input label="Last Name" onChange={handleChange} name="lastName" />
+        <Input label="Email" onChange={handleChange} name="email" />
+        <Input label="Location" onChange={handleChange} name="location" />
         <SelectField onChange={handleChange} name="branch" />
         <Input
           label="Add Comment"

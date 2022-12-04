@@ -1,14 +1,6 @@
 import firebaseConfig from "./firebase_config";
 import { initializeApp } from "firebase/app";
-import {
-  getFirestore,
-  collection,
-  addDoc,
-  where,
-  query,
-  getDocs,
-  getDoc,
-} from "firebase/firestore";
+import { getFirestore, collection, addDoc, where } from "firebase/firestore";
 
 // initilaize app
 const app = initializeApp(firebaseConfig);
@@ -28,14 +20,10 @@ const addDocument = async (arg) => {
   return result;
 };
 
-// const findMember = async (email) => {
-//   const q = query(colRef, where("email", "==", email));
-//   const querySnapshot = await getDocs(q);
-//   if (querySnapshot[0].exists()) {
-//     return true;
-//   } else {
-//     return false;
-//   }
-// };
+const findMember = async (email) => {
+  const q = query(colRef, where("email", "==", email));
+  const querySnapshot = await getDocs(q);
+  return querySnapshot;
+};
 
 export { addDocument };
