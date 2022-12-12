@@ -8,7 +8,6 @@ import {
   query,
   getDocs,
   getDoc,
-  onSnapshot,
 } from "firebase/firestore";
 
 // initilaize app
@@ -51,4 +50,4 @@ const getCollectionData = (setTransactions) => {
   });
 };
 
-export { addDocument, getCollectionData };
+export { addDocument };

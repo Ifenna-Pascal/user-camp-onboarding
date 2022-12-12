@@ -8,7 +8,6 @@ import {
   query,
   getDocs,
   getDoc,
-  onSnapshot,
 } from "firebase/firestore";
 
 // initilaize app
@@ -40,7 +39,7 @@ const addDocument = async (arg) => {
 // };
 
 const getCollectionData = (setTransactions) => {
-  const q = query(collection(db, "members"));
+  const q = query(collection(db, "transactions");
   onSnapshot(q, (querySnapshot) => {
     setTransactions(
       querySnapshot.docs.map((doc) => ({
@@ -51,4 +50,4 @@ const getCollectionData = (setTransactions) => {
   });
 };
 
-export { addDocument, getCollectionData };
+export { addDocument };

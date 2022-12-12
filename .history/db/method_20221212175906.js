@@ -8,7 +8,6 @@ import {
   query,
   getDocs,
   getDoc,
-  onSnapshot,
 } from "firebase/firestore";
 
 // initilaize app

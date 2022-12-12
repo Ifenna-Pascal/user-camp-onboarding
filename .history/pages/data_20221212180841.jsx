@@ -1,0 +1,12 @@
+import React, { useEffect } from "react";
+import { getCollectionData } from "../db/method";
+
+function Data() {
+  useEffect(() => {
+    getCollectionData(setData);
+  }, []);
+  const [data, setData] = useState([]);
+  return <div>Data</div>;
+}
+
+export default Data;
