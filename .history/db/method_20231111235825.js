@@ -4,7 +4,10 @@ import {
   getFirestore,
   collection,
   addDoc,
+  where,
   query,
+  getDocs,
+  getDoc,
   onSnapshot,
 } from "firebase/firestore";
 

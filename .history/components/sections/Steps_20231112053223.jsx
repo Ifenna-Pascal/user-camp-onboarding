@@ -2,10 +2,10 @@ import React from "react";
 import Header from "../general/Header";
 
 const Payment = () => (
-  <span>
+  <p>
     Everyone is expected to pay a registration fee of <strong>#1,500</strong> to
     the account details seen after filling out the registration form.
-  </span>
+  </p>
 );
 
 function Steps() {

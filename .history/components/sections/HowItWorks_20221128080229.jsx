@@ -5,7 +5,7 @@ import Header from "../general/Header";
 function HowItWorks() {
   const [current, setCurrent] = useState(0);
   return (
-    <div className="my-6" id="process">
+    <div className="mb-8" id="process">
       <Header
         header="It's All About Variety"
         content="At the camp no moment is left out, every moment an encounter, every timing an experience "
